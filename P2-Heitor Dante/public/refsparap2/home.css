@@ -1,0 +1,45 @@
+body{
+    background-color: rgb(0, 0, 0);
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.grande{
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(48, 48, 48);
+    width: 350px;
+    border-radius: 10px;
+    border:3px solid darkred;
+}
+input{
+    border-radius: 5px; 
+    border: 2px solid darkred;
+    height: 30px;
+    color: white;
+    background-color: black;
+}
+a{
+    text-decoration: none;
+    font-weight: bold;
+    color:darkred
+}
+a:hover{
+    color: white;
+}
+p{
+    color:white;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap:10px;
+}

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Blog</title>
+<link href="/estilo.css" rel="stylesheet">
+</head>
+<body>
+<a href="/blognovo"><button>Criar um post</button></a>
+<div class="postsG">
+    <% posts.forEach(function(post) { %>
+        
+        <div class="post-card">
+            <h2><%= post.titulo %></h2>
+            
+            <p><%= post.resumo %></p>
+            
+            <p><%= post.conteudo %></p>
+        </div>
+
+    <% }) %>
+</div>
+
+<a href="/escolha.html"><button>voltar</button></a>
+
+</body>
+</html>

@@ -1,0 +1,60 @@
+body {
+    background-image: linear-gradient(#0a0a0a, rgb(39, 38, 38));
+    margin: 5px;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family: "Silkscreen", sans-serif;
+
+}
+
+#title {
+    text-align: center;
+    color: white;
+}
+
+.texto {
+    color: white;
+    text-align: center;
+    font-size: 11pt;
+}
+
+#tabela1 {
+    margin: auto;
+    text-align: center;
+    width: 60%;
+    /* border: 3px solid white; */
+    /* border-color: white; */
+    border-collapse: collapse;
+    box-shadow: 0 0 20px white;
+}
+
+a:hover {
+    color: gray;
+}
+
+
+td {
+    height: 70px;
+    width: 30%;
+    background-color: rgb(78, 78, 78);
+    color:rgb(180, 180, 180);
+}
+
+a {
+    color: darkred;
+    text-decoration: none;
+}
+thead{
+    background-color: darkred;
+    color:rgb(180, 180, 180);
+    height: 70px;
+}
+tbody tr:last-of-type{
+    border-bottom: 4px solid darkred;
+}
+tbody tr:nth-of-type(even){
+    background-color:rgb(43, 43, 43) ;
+}
+tbody tr {
+    border-bottom: 1px solid #dddddd;
+}

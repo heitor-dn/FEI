@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Carros</title>
+    <link href="/estilo.css" rel="stylesheet">
+</head>
+
+<body>
+    <a href="/carronovo"><button>Cadastrar um carro</button></a>
+    <div class="postsG">
+        <% carros.forEach(function(carro) { %>
+
+            <div class="carrocard">
+                <h3>
+                    <%= carro.marca %> - <%= carro.modelo %>
+                </h3>
+                <p>Ano: <%= carro.ano %>
+                </p>
+                <p>Disponivel: <%= carro.qtde_disponivel %> unidades</p>
+                <span class="pequeno">
+                    <% if (carro.qtde_disponivel> 0) { %>
+                        <a href="/vender/<%= carro._id %>"><button>Vender</button></a>
+                        <% } else { %>
+                            <span class="esgotado">ESGOTADO</span>
+                            <% } %>
+                    <a href="/remover/<%= carro._id%>"><button>Remover</button></a>
+                </span>
+            </div>
+
+
+
+            <% }) %>
+    </div>
+    <a href="/escolha.html"><button>voltar</button></a>
+
+</body>
+
+</html>

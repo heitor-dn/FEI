@@ -1,0 +1,126 @@
+.titulo{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    color: yellowgreen;
+    padding-top: 10px;
+}
+.bloco{
+    display:flex;
+    align-items:center;
+    background-color: brown;
+    width: 300px;
+    min-height: 200px;
+    height: auto;
+    max-height: 400px;
+    border-radius: 15px;
+    flex-direction: column;
+    position:absolute;
+    
+}
+#teste{
+    background-color: white;
+    justify-content: center;
+    display:flex;
+    align-items: center;
+    position: relative;
+    top:20px;
+    height: auto;
+}
+.exp{
+    color: black;
+    display:flex;
+    position: relative;
+    top: 20px;
+    /* background-color: yellow; */
+    font-size: 10pt;
+    height: 15px;
+    justify-content:center;
+    flex-direction: column;
+}
+body{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height:100vh;
+    margin:0px;
+    background: linear-gradient(brown, yellowgreen);
+}
+.botao{
+    display: flex;
+    padding-top: 25px;
+}
+#guess{
+    background-color: yellowgreen;
+    border-radius: 50%;
+    border: none;
+}
+#guess:hover{
+    background-color: rgb(131, 167, 1);
+}
+.aviso{
+    text-align: center;
+    font-weight: bold;
+    color:yellowgreen;
+    font-size: 15pt;
+    /* background-color: yellow; */
+    position: relative;
+    bottom:75px;
+    height: 20px;
+}
+.era{
+    color: yellowgreen;
+    font-weight: bold;
+    text-align: center;
+    font-size: 13pt;
+}
+.menu{
+    background-color: yellowgreen;
+    position: absolute;
+    left:10px;
+    top:10px;
+    width:80px;
+    height: 40px;
+    border-radius: 10px;
+    color:brown;
+    font-weight: bold;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+/* a:hover{
+    color:yellow;
+}
+a{
+    color:brown;
+    text-decoration: none;
+} */
+#home{
+    width:80px;
+    height: 40px;
+    border-radius: 10px;
+    background-color: yellowgreen;
+    color:brown;
+    border:none;
+    font-weight: bold;
+}
+#home:hover{
+    background-color:rgb(131, 167, 1);
+ }
+/* #bot{
+    background-color: yellowgreen;
+    position: relative;
+    bottom:60px;
+}  */
+#bot2{
+    background-color: brown;
+    color:yellowgreen;
+    position: relative;
+    top:215px;
+    border:none;
+    font-weight: bold;
+    border-radius: 5px;
+}
+#bot2:hover{
+    background-color:rgba(211, 57, 57, 0.856)
+}
